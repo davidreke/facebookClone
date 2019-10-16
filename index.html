@@ -62,7 +62,7 @@
         <div class="row">
 
             <!-- left column -->
-            <div class="col c-md-2 left-bar position-fixed">
+            <div class="col col-2 left-bar position-fixed">
                 <ul>
                     <li><a href="#"><img src="images/davidProfile.jpg" alt="">David Reke</a></li>
                     <li><a href="#"><img src="images/newsFeed.png"> Feed</a></li>
@@ -113,7 +113,7 @@
             </ul>
             </div>
             <!-- middle column -->
-            <div class="col col-md-6 middle-bar">
+            <div class="col col-6 middle-bar">
                 <div class="card">
                     <div class="card-header">
                         Create Post
@@ -132,12 +132,12 @@
                             </div>
                             <div class="float-right post-bt-div">
                                 <button class="btn btn-defualt btn-outline-defualt postButton">
-                                    <img src="images/tagFriends.png" alt=""> Tag Friends
+                                    <img src="images/tagFriends.png" alt="" style="height:21px"> Tag Friends
                                 </button>
                             </div>
                             <div class= "float-right post-bt-div">
                                 <button class="btn btn-defualt btn-outline-defualt postButton">
-                                   <img src="images/feeling.png'" alt=""> Feeling/Activ...
+                                   <img src="images/feeling.png" alt=""> Feeling/Activ...
                                 </button>
                             </div>
                             <div class="float-right post-bt-div">
@@ -155,15 +155,98 @@
                     <p class="text-muted mt-1 ml-1">Stories<span><a href="#" class="rightStoryLink">See All</a></span></p>
                     <img src="images/stories.png" alt="" class="m-2">
                 </div>
+
+                <!-- eric sneed post -->
                 <div class="card">
-                    <span><img src="images/ericSneed.jpg" alt="" class="middleProfilePic profilePic float-left">
+                    <span class="mr-1"><img src="images/ericSneed.jpg" alt="" class="middleProfilePic profilePic float-left">
                     <a href="#" class="float-left mt-1">Eric Sneed</a></span>
+                    <p class="float-left pl-2">School pics finally arrived <img src="images/smiley.png" alt=""> </p>
                     <img src="images/ericSon.jpg" alt="" class="postimage">
-                </div>
+                    <img src="images/reactions.png" alt="" id="sneedReacts" class="ml-2">
+                    <hr>
+                    <div class="row responseBar">
+                        <div class="col-4">
+                            <button class="btn btn-default btn-no-border"><img src="images/likeButton.png" alt=""></button>
+                        </div>
+                        <div class="col-4">
+                            <button class="btn btn-default btn-no-border"><img src="images/commentButton.png" alt=""></button>
+                        </div>
+                        <div class="col-4">
+                            <button class="btn btn-default btn-no-border"><img src="images/shareButton.png" alt=""></button>
+                        </div>
+                    </div>
+                    <hr>
+                    <img src="images/davidProfile.jpg" class="responseprofilepic ml-2" alt="">
+                    <textarea class="float-right text-muted commentTextArea" name="" id="" cols="auto" rows="auto">Write a comment...</textarea>
+                    </div>
+                    </div>
 
-
+<!-- right bar -->
+            
+            <div class="col col-3 rightbar">
+            <div class="card">
+                <span><img src="images/rightBirthday.png" alt=""> <a href="#">Ryan P. McNicholas</a> <span class="text-muted">'s birthday is today</span> </span>
+                <span><img src="images/rightEvent.png" alt=""> <a href="#">All Things Local Cin...</a> <span class="text-muted"> on Sunday</span> </span>
             </div>
-            <div class="col col-md-3 right-bar"></div>
+            <div class="card">
+                <div class="card-header headerNoBG">
+                    Your page <span id="rightdots">...</span>
+                </div>
+                
+                <p>
+                    <img src="images/candidateProfile.jpg" id="rightprofilepic" alt="" class="p-1 float-left">
+                    <a href="" class="">David Reke</a> <br>
+                    <img src="images/rightMessages.png" alt=""> <span class="text-muted">Messages</span> <br>
+                    <img src="images/rightNotifications.png" alt=""> <span class="text-muted">Notifications</span>
+                    
+                </p>
+                <hr>
+                <div class="row">
+                    <div class="col-3">
+                        <img src="images/rightPublish.png" alt="">
+                        <span class="text-muted">Publish</span>
+                    </div>
+                    <div class="col-3">
+                        <img src="images/rightPhoto.png" alt="">
+                        <span class="text-muted">Photo</span>
+                    </div>
+                    <div class="col-3">
+                        <img src="images/rightLive.png" alt="">
+                        <span class="text-muted">Live</span>
+                    </div>
+                    <div class="col-3">
+                        <img src="images/rightInvite.png" alt="">
+                        <span class="text-muted">Invite</span>
+                    </div>
+                </div>
+                <hr>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-secondary">Likes</button>
+                    <button type="button" class="btn btn-secondary">Views</button>
+                    <button type="button" class="btn btn-secondary">Posts</button>
+                </div>
+                    <h5 class="text-center">243</h5>
+                    <p class="text-center">0 new likes this week</p>
+                    <hr>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            <img src="images/promotions.png" alt=""> Create Promotion
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Manage Promotions</a>
+                            <a class="dropdown-item" href="#">Ads Manager</a>
+                        </div>
+                    </div>
+                
+            </div>
+            <div class="card">
+                <p class="text-muted"> <img src="images/rightMarketplace.png" alt="">  Listings You Recently Viewed</p>
+                <img src="images/recientlyViewedPng.png" alt="">
+                <a href="#">See More</a>
+            </div>
+        
+            </div>
         </div>
     </div>
     

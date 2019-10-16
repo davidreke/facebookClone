@@ -55,13 +55,15 @@ body{
     min-height: 100vh;
     margin: 11px;
     margin-left: 183px;
+    margin-top: 44px;
 }
 
-.right-bar{
-    background: #ffffff;
+.rightbar{
     min-height: 100vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 6px;
+    font-size: 5px;
+    margin-top: 44px;
+    padding: 0px;
 }
 
 .left-bar ul{
@@ -95,6 +97,7 @@ body{
 .middle-bar .card{
     background: #ffffff;
     margin-top: 9px;
+    font-size: 14px;
 }
 
 .middleProfilePic{
@@ -132,8 +135,10 @@ textarea{
     background-color: #F5F6F7;
     border-radius: 20px;
 }
-.post-btn-div{
+.post-bt-div{
     margin-left: 6px;
+    height: 35px;
+    
 }
 
 .rightStoryLink{
@@ -150,4 +155,62 @@ textarea{
 .postimage{
     width: 100%;
     height: auto;
+}
+
+#sneedReacts{
+    height: 29px;
+    width: 79px;
+}
+
+.responseBar{
+    height: 40px;
+}
+
+.responseprofilepic {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+.commentTextArea{
+    background-color: #F2F3F5;
+}
+
+.rightbar .card{
+    background-color: #ffffff;
+    margin-top: 9px;
+    font-size: 14px;
+    padding: 2px;
+    margin-left: 0px;
+}
+
+#rightdots{
+    display: inline-block;
+    justify-items: right;
+    float: right;
+    
+}
+
+.headerNoBG{
+    background-color: #ffffff;
+}
+
+#rightprofilepic{
+    width: 60px;
+    height: 60px;
+}
+
+.btn-secondary{
+    background-color: #F5F6F7;
+    color: #3D3E3E;
+    
+}
+
+.btn-group{
+    margin: 5px;
+    height: 37px;
+}
+
+.postButton{
+    margin-bottom: 5px;
 }
