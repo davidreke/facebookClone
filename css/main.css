@@ -214,3 +214,24 @@ textarea{
 .postButton{
     margin-bottom: 5px;
 }
+
+.commentField{
+    width: 470px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .btn-no-background{
+    background: none;
+}
+
+.btn-no-border{
+    border: none;
+} */
+
+.nav-fake-button{
+    background: none;
+    border: none;
+    color: #ffffff !important;
+}
